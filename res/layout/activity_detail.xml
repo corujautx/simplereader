@@ -1,0 +1,29 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tortor mauris, malesuada eget molestie nec, gravida id erat. Aliquam ut dui quam. Vestibulum consequat sem sed arcu pulvinar, et vulputate ipsum ornare. Maecenas at ipsum mauris. In nec metus et urna semper condimentum quis vel augue. Pellentesque id augue non nulla tristique ornare. Maecenas tempor sem sit amet vehicula imperdiet. Sed ac nisi vitae sem fermentum lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce a felis sed quam placerat tincidunt. Donec non ultrices dolor.
+
+Duis semper elit sollicitudin ipsum pharetra auctor. Praesent scelerisque turpis sed pharetra vehicula. Aenean eros ligula, tempus eget odio congue, aliquet gravida sem. Sed placerat suscipit felis eu malesuada. Etiam felis lacus, sagittis vitae sollicitudin vitae, egestas quis erat. Cras ac odio cursus, faucibus lectus eu, convallis enim. In hac habitasse platea dictumst. Donec vulputate condimentum sodales.
+
+Suspendisse et feugiat est. Duis malesuada erat a semper dignissim. Curabitur molestie nibh vel sapien condimentum euismod. Fusce sit amet massa sit amet ante vulputate ullamcorper vel ut tellus. Aliquam quis massa nec enim egestas cursus. Curabitur vulputate vel dolor sit amet ultricies. Fusce malesuada risus ut arcu pellentesque venenatis. Donec volutpat metus et ligula ultrices, sed commodo orci commodo.
+
+Etiam vulputate justo sed tortor viverra, et euismod erat scelerisque. Proin dignissim sit amet nulla in molestie. Mauris suscipit consequat vestibulum. Praesent ut sollicitudin odio. Nam purus augue, fermentum quis varius et, ullamcorper ac urna. Vestibulum bibendum ut lectus eget tristique. Nam quis mi semper, condimentum justo et, condimentum est. Morbi quis felis sollicitudin, venenatis eros non, cursus mi. Nulla sed metus eget enim sagittis varius. Nunc sodales porta ipsum vel laoreet. Nullam ullamcorper, ipsum at sollicitudin fringilla, justo leo vulputate purus, eget ornare nulla magna sed sapien. Etiam leo metus, tincidunt accumsan purus eu, congue sagittis turpis. Donec blandit aliquam leo non mattis. Fusce quis massa ac ligula varius iaculis. Ut pellentesque scelerisque odio quis rutrum.
+
+Suspendisse ipsum erat, mattis ut dictum nec, molestie lobortis quam. Vestibulum ac condimentum felis. Donec eleifend eros a nibh vehicula congue. Curabitur id vestibulum nisi, ut tempor ante. Aenean vel vulputate leo, nec aliquam mauris. Suspendisse potenti. Aliquam erat volutpat. Sed mattis magna id sodales porta. Etiam iaculis nulla eu scelerisque dictum. Vivamus tincidunt feugiat lectus, at pulvinar mauris tristique quis. Nulla sodales tortor in pharetra pellentesque. Integer metus tortor, ornare in porttitor ac, vulputate vitae metus. Suspendisse nisi justo, eleifend et risus sed, dignissim feugiat ipsum. Duis aliquam suscipit est lacinia gravida."
+                 />
+                        
+        </LinearLayout>
+        
+ </ScrollView>

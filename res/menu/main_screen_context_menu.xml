@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/remove_articles_item" android:title="Remove articles" android:showAsAction="ifRoom|withText" android:icon="@drawable/content_discard" android:titleCondensed="Remove"></item>
+    <item android:id="@+id/mark_as_read_item" android:title="Mark articles as read" android:icon="@drawable/navigation_accept" android:showAsAction="ifRoom|withText"></item>
+    <item android:id="@+id/favorite_articles_item" android:title="Favorite articles" android:showAsAction="ifRoom|withText" android:icon="@drawable/rating_favorite" android:titleCondensed="Favorite"></item>
+</menu>
