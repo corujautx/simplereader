@@ -27,10 +27,15 @@
         <activity
             android:name="com.test.simplereader.DetailActivity"
             android:label="@string/title_activity_detail"
-            android:parentActivityName="com.test.simplereader.MainActivity" >
+            android:parentActivityName="com.test.simplereader.MainActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.test.simplereader.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.test.simplereader.SettingsActivity"
+             >
         </activity>
     </application>
 

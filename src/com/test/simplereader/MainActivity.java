@@ -59,7 +59,7 @@ public class MainActivity extends ListActivity implements ActionBar.OnNavigation
 			articles.add("Article " + i);
 		}
 		
-		mListAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, articles);
+		mListAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, articles);
 		
 		setListAdapter(mListAdapter);
 		
@@ -96,7 +96,6 @@ public class MainActivity extends ListActivity implements ActionBar.OnNavigation
 			public void onItemCheckedStateChanged(ActionMode mode, int position,
 					long id, boolean checked) {
 				// TODO Auto-generated method stub
-				
 				mode.setTitle(getListView().getCheckedItemCount() + " selected");
 			}
 		});
@@ -124,6 +123,11 @@ public class MainActivity extends ListActivity implements ActionBar.OnNavigation
 	@Override
 	public boolean onMenuItemSelected(int featureId, MenuItem item) 
 	{
+		if(item.getItemId() == R.id.settings_item)
+		{
+			Intent intent = new Intent(this, SettingsActivity.class);
+			startActivity(intent);
+		}
 		return super.onMenuItemSelected(featureId, item);
 	}
 

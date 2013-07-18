@@ -1,9 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+    <item android:id="@+id/search_detail_item" android:titleCondensed="Search" android:title="Search" android:icon="@drawable/action_search" android:actionViewClass="android.widget.SearchView" android:showAsAction="always|withText|collapseActionView"></item>
+    <item android:id="@+id/mark_as_read_detail_item" android:title="Mark as read" android:icon="@drawable/navigation_accept" android:showAsAction="ifRoom|withText"></item>
+    <item android:id="@+id/favorite_articles_detail_item" android:title="Favorite" android:showAsAction="ifRoom|withText" android:icon="@drawable/rating_favorite" android:titleCondensed="Favorite"></item>
 
 </menu>

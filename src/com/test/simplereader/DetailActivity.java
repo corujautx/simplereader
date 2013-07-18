@@ -13,6 +13,7 @@ public class DetailActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_detail);
 		// Show the Up button in the action bar.
+		setTitle("Article " + getIntent().getExtras().getInt(MainActivity.SELECTED_ARTICLE));
 		setupActionBar();
 	}
 
